@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stations Vélib à Paris</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div>
+            <h1>Stations Vélib à Paris</h1>
+            <p>Trouvez rapidement une station disponible autour de vous</p>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="map-card">
+            <div id="map" class="map"></div>
+        </section>
+
+        <div class="controls">
+            <div class="search">
+                <input class="search__input" type="text" placeholder="Rechercher une station...">
+                <button class="search__button" type="button">
+                    🔍
+                </button>
+            </div>
+
+            <select class="filter__select">
+                <option value="">Tous les filtres</option>
+                <option value="available">Vélos disponibles</option>
+                <option value="empty">Places disponibles</option>
+                <option value="ebike">Vélos électriques</option>
+            </select>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
