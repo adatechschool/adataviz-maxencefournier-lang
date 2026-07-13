@@ -85,6 +85,9 @@ searchInput.addEventListener("input", () => {
     displayCards(stationsFiltrees)
 })
 
+//Filtre des cartes
+
+
 // Création des marqueurs sur la carte
 function displayMarker(map, stationList) {
     stationList.forEach((station) => {
