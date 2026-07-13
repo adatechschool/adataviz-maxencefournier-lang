@@ -1,0 +1,2 @@
+1. Ajouter nombre de station à barre de recherche
+2. écrire fonction pure dans util.js et les tester dans util.test.js

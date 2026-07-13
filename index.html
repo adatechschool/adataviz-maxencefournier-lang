@@ -24,13 +24,15 @@
 
         <section class="controls">
             <div class="search">
-                <input class="search__input" type="text" placeholder="Rechercher une station...">
-                <button class="search__button" type="button">
+                <input class="search_input" type="text" placeholder="Rechercher une station...">
+                <button class="search_button" type="button">
                     🔍
                 </button>
             </div>
 
-            <select class="filter__select">
+            <span class="station-count">0 station trouvée</span>
+
+            <select class="filter_select">
                 <option value="">Tous les filtres</option>
                 <option value="available">Vélos disponibles</option>
                 <option value="empty">Places disponibles</option>
@@ -42,7 +44,7 @@
     </main>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 
 </html>
