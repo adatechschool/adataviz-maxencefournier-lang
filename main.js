@@ -19,6 +19,7 @@ const chargerDonnees = async () => {
         displayCards(toutesLesStations)
         displayMarker(map, toutesLesStations)
     } catch (erreur) {
+        alert("Impossible de se connecter à l'API.")
         console.error("Erreur de chargement :", erreur.message)
     }
 }

@@ -129,7 +129,6 @@ body {
     width: 900px;
     max-width: 90%;
     margin-top: 32px;
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
@@ -137,13 +136,10 @@ body {
 
 .card-station {
     padding: 24px;
-
     background-color: white;
     border: 1px solid #dce8e5;
     border-radius: 18px;
-
     box-shadow: 0 8px 24px rgba(15, 118, 110, 0.1);
-
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
